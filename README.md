@@ -1,0 +1,81 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/refs/heads/main/images/branding/ydl-logo.svg" alt="Young & Digital Learning logo" width="260">
+</p>
+<h1 align="center">Young & Digital Learning — Interactive Demo</h1>
+
+<p align="center">
+  <a href="https://github.com/YoungAndDigitalLearning/younganddigitallearning.github.io/actions/workflows/deploy.yml">
+    <img
+      src="https://img.shields.io/github/actions/workflow/status/YoungAndDigitalLearning/younganddigitallearning.github.io/deploy.yml?branch=main&style=for-the-badge&logo=githubactions&label=Deployment"
+      alt="GitHub Pages deployment workflow status"
+    >
+  </a>
+  <a href="https://younganddigitallearning.github.io/">
+    <img
+      src="https://img.shields.io/website?url=https%3A%2F%2Fyounganddigitallearning.github.io%2F&style=for-the-badge&logo=githubpages&label=Website&up_message=online&down_message=offline&up_color=brightgreen&down_color=red"
+      alt="Young and Digital Learning website availability"
+    >
+  </a>
+  <a href="https://github.com/YoungAndDigitalLearning/younganddigitallearning.github.io/commits/main/">
+    <img
+      src="https://img.shields.io/github/last-commit/YoungAndDigitalLearning/younganddigitallearning.github.io?style=for-the-badge&logo=github&label=Last%20Commit"
+      alt="Last commit to the GitHub Pages repository"
+    >
+  </a>
+  <a href="https://github.com/YoungAndDigitalLearning/younganddigitallearning.github.io/deployments">
+  <img
+    src="https://img.shields.io/github/deployments/YoungAndDigitalLearning/younganddigitallearning.github.io/github-pages?style=for-the-badge&logo=githubpages&label=GitHub%20Pages"
+    alt="GitHub Pages deployment status"
+  >
+</a>
+</br>
+<a href="https://github.com/YoungAndDigitalLearning/ydl-front">
+    <img
+      src="https://img.shields.io/badge/Vue.js-2.x-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"
+      alt="Vue.js 2 frontend"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <a target="_blank" href="https://younganddigitallearning.github.io/">
+    <strong>Launch Interactive Demo</strong>
+  </a>
+</p>
+
+This repository hosts the public, interactive demonstration of **Young & Digital Learning**, an academic full-stack web application originally developed at **Technische Universität Berlin (TU Berlin)** in collaboration with the **Sprach- und Kulturbörse (SKB)**.
+
+## About the Demo
+
+The demo is based on the original **Vue 2 frontend**, restored and adapted for static hosting on GitHub Pages.
+
+It allows visitors to explore the application from both student and teacher perspectives, including:
+
+- Course discovery, enrollment, and management
+- Course discussions and forum threads
+- Interactive quizzes with immediate feedback
+- Course calendars and learning resources
+- Teacher interfaces for creating and editing course content
+
+The demo runs entirely in the browser using **fictional sample data and a mock API**. No Django backend, database, or real user credentials are required.
+
+Changes are stored locally in the browser and can be reverted using **Reset Demo**.
+
+## Project Repositories
+
+| Repository                                                         | Description                                                      |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| [ydl](https://github.com/YoungAndDigitalLearning/ydl)              | Main full-stack project, Docker setup, and screenshot automation |
+| [ydl-front](https://github.com/YoungAndDigitalLearning/ydl-front)  | Original Vue.js frontend and static demo implementation          |
+| [ydl-api](https://github.com/YoungAndDigitalLearning/ydl-api)      | Django REST Framework backend                                    |
+| [Organization Profile](https://github.com/YoungAndDigitalLearning) | Project overview, architecture, and screenshots                  |
+
+## Deployment
+
+This repository contains the **generated static build** of the Vue application, published using GitHub Pages and GitHub Actions.
+
+The frontend source code is maintained in [`ydl-front`](https://github.com/YoungAndDigitalLearning/ydl-front). The deployed files are build artifacts rather than a separate source-code fork.
+
+---
+
+_Young & Digital Learning is presented as an academic software engineering project and technical portfolio reference. All data in the public demo is fictional._
