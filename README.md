@@ -85,6 +85,10 @@ Changes are stored locally in the browser and can be reverted using **Reset Demo
 | [ydl-api](https://github.com/YoungAndDigitalLearning/ydl-api)      | Django REST Framework backend                                    |
 | [Organization Profile](https://github.com/YoungAndDigitalLearning) | Project overview, architecture, and screenshots                  |
 
+For the original full-stack architecture, implementation details,
+and restoration process, see the
+[Young & Digital Learning Project Wiki](https://github.com/YoungAndDigitalLearning/ydl/wiki).
+
 ## Deployment
 
 This repository contains the **generated static build** of the Vue application, published using GitHub Pages and GitHub Actions.
